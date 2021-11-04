@@ -1,0 +1,214 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	border-collapse: collapse;
+	color: auto;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	margin: auto;
+	height: auto;
+ 	background-color: #FFFFFF;
+ 	top: 0;
+ 	left: 0;
+	right: 0;
+ 	padding: 1%;
+	justify-content: space-between;
+	z-index: 5;
+	}
+
+	.nav {
+	display: flex;
+	width: auto;
+	height: auto;
+	margin-right: 5%;
+	justify-content: flex-end;
+    font-size: 110%;
+}
+
+	.nav > li{
+	margin-right: 50px;
+	margin-top: auto;
+}
+	
+
+.portfolio-bg{
+	background-image: url("img/bg_cloud.png");
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
+	.portfolio-title{	
+		padding-top: 5%;
+		background-color: #F0E6FF;
+}
+	
+	.portfolio-title > h1 {
+	text-align: center;
+	color: #583C81;
+}
+
+	.portfolio-title > hr {
+	width: 30%;
+}
+
+.pf-index {
+	text-align: center;
+	justify-content: center;
+    font-size: 110%;
+}
+
+.pf-index > li {
+	text-align: center;
+	justify-content: space-between;
+}
+
+.portfolio{
+	position: center;
+	background-image: url("img/bg_cloud.png");
+}
+
+.portfolio-content{
+	margin: 10%;	
+}
+
+.video > h2{
+	color: #8062AC;
+}
+
+.kofic{
+}
+
+.kofic > h3{
+	color: #757575;
+	text-align: center;
+	margin: 5% 0;
+}
+
+.kofic-image{
+	margin: 15px;
+}
+
+.kofic-left{
+	float: left;
+	width: 45%;
+	text-align: center;
+}
+
+.kofic-left > a > img{
+	width: 100%;
+}
+
+.kofic-right{
+	float: right;
+	width: 45%;
+	text-align: center;
+}
+
+.kofic-right > a >img {
+	width: 100%;
+}
+
+.bfc{
+	margin-top: 10%;
+	clear: both;
+}
+
+.bfc > h3{
+	color: #757575;
+	text-align: center;
+	margin: 5% 0;
+}
+
+.bfc-image{
+	margin: 15px;
+}
+
+.bfc-left{
+	float: left;
+	width: 45%;
+	text-align: center;
+}
+
+.bfc-left > a > img{
+	width: 100%;
+}
+
+.bfc-right{
+	float: right;
+	width: 45%;
+	text-align: center;
+}
+
+.bfc-right > a >img {
+	width: 100%;
+}
+
+.mofa{
+	clear: both;
+}
+
+.mofa > h3{
+	color: #757575;
+	text-align: center;
+	margin: 5% 0;
+}
+
+.mofa-image{
+	margin: 15px;
+}
+
+.mofa-center{
+	position: center;
+	width: 45%;
+	text-align: center;
+}
+
+.mofa-center > a > img{
+	width: 100%;
+}
+
+.design > h2{
+	color: #8062AC;
+}
+
+.ppt > h3{
+	color: #757575;
+	text-align: center;
+	margin: 5% 0;
+}
+
+.ppt-design{
+	width: 100%;
+	text-align: center;
+}
+
+.ppt-design > a >img {
+	position: center;
+	width: 60%;	
+}
+
+.project > h2{
+	color: #8062AC;
+}
+
+.test > h3{
+	color: #757575;
+	text-align: center;
+	margin: 5% 0;
+}
+
+.test-content{
+	width: 100%;
+	text-align: center;
+}
+
+.test-content > a >img {
+	position: center;
+	width: 40%;
+	
+}
