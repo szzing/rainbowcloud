@@ -1,0 +1,54 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	border-collapse: collapse;
+	color: auto;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	margin: auto;
+	height: auto;
+ 	background-color: #FFFFFF;
+ 	top: 0;
+ 	left: 0;
+	right: 0;
+ 	padding: 1%;
+	justify-content: space-between;
+	z-index: 5;
+	}
+
+	.nav {
+	display: flex;
+	width: auto;
+	height: auto;
+	margin-right: 5%;
+	justify-content: flex-end;
+    font-size: 110%;
+}
+
+	.nav > li{
+	margin-right: 50px;
+	margin-top: auto;
+}
+	
+
+.contact{
+	text-align: center;
+}
+
+.contact-icon{
+	display: flex;
+	margin: 0 40%;
+	justify-content: space-around;
+	
+}
+
+.talk > a > img{
+	width: 40%;
+}
+
+.email > a > img{
+	width: 40%;
+}
